@@ -1,0 +1,193 @@
+.table-container {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  overflow-x: auto;
+}
+
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.student-table thead {
+  background: #f8fafc;
+  border-bottom: 2px solid #e2e8f0;
+}
+
+.student-table th {
+  padding: 16px;
+  text-align: left;
+  font-weight: 600;
+  color: #1e293b;
+  font-size: 14px;
+}
+
+.student-table tbody tr {
+  border-bottom: 1px solid #e2e8f0;
+  transition: background-color 0.2s ease;
+}
+
+.student-table tbody tr:hover {
+  background-color: #f8fafc;
+}
+
+.student-table td {
+  padding: 16px;
+  color: #475569;
+  font-size: 14px;
+}
+
+.cell-id {
+  color: #2563eb;
+  font-weight: 600;
+}
+
+.cell-name {
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.desk-badge {
+  display: inline-block;
+  background: #dbeafe;
+  color: #1e40af;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.fee-badge,
+.fee-status {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.fee-badge.paid,
+.fee-status.paid {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.fee-badge.unpaid,
+.fee-status.unpaid {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.fee-badge.trial {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.fee-badge.due,
+.fee-status.due {
+  background: #ffedd5;
+  color: #c2410c;
+}
+
+.fee-actions {
+  display: flex;
+  gap: 6px;
+  margin-top: 8px;
+  flex-wrap: wrap;
+}
+
+.fee-action-btn {
+  border: 0;
+  border-radius: 4px;
+  padding: 5px 7px;
+  background: #dcfce7;
+  color: #166534;
+  cursor: pointer;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.fee-action-btn.reminder-btn {
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+.cell-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.action-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+.action-btn.view-btn {
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+.action-btn.view-btn:hover {
+  background: #bfdbfe;
+}
+
+.action-btn.edit-btn {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.action-btn.edit-btn:hover {
+  background: #fde68a;
+}
+
+.action-btn.delete-btn {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.action-btn.delete-btn:hover {
+  background: #fecaca;
+}
+
+.empty-state {
+  background: white;
+  border-radius: 10px;
+  padding: 40px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.empty-state p {
+  margin: 8px 0;
+  color: #64748b;
+}
+
+.empty-state-hint {
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .student-table {
+    font-size: 12px;
+  }
+
+  .student-table th,
+  .student-table td {
+    padding: 12px 8px;
+  }
+
+  .action-btn {
+    width: 32px;
+    height: 32px;
+  }
+}

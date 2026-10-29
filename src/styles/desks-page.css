@@ -1,0 +1,86 @@
+.desk-info-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 20px;
+}
+
+.desk-info-content {
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  max-width: 400px;
+  width: 100%;
+  position: relative;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.desk-info-content h3 {
+  margin: 0 0 20px 0;
+  font-size: 20px;
+  color: #1e293b;
+}
+
+.close-btn {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #64748b;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.close-btn:hover {
+  color: #1e293b;
+}
+
+.student-info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.student-info p {
+  margin: 0;
+  padding: 10px;
+  background: #f8fafc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.student-name {
+  font-size: 18px;
+  font-weight: 700;
+  color: #1e293b;
+  background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+  padding: 12px !important;
+}
+
+.student-phone,
+.student-id,
+.joining-date {
+  color: #64748b;
+}
+
+@media (max-width: 480px) {
+  .desk-info-modal {
+    padding: 10px;
+  }
+
+  .desk-info-content {
+    padding: 20px;
+  }
+}

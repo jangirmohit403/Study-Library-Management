@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Rahul Sharma",
+    "phone": "9876543210",
+    "deskNumber": 1,
+    "joiningDate": "2026-08-01",
+    "status": "active"
+  },
+  {
+    "id": 2,
+    "name": "Amit Kumar",
+    "phone": "9876543211",
+    "deskNumber": 2,
+    "joiningDate": "2026-08-02",
+    "status": "active"
+  },
+  {
+    "id": 3,
+    "name": "Neha Sharma",
+    "phone": "9876543212",
+    "deskNumber": 3,
+    "joiningDate": "2026-08-03",
+    "status": "active"
+  },
+  {
+    "id": 4,
+    "name": "Priya Singh",
+    "phone": "9876543213",
+    "deskNumber": 5,
+    "joiningDate": "2026-08-04",
+    "status": "active"
+  },
+  {
+    "id": 5,
+    "name": "Arjun Patel",
+    "phone": "9876543214",
+    "deskNumber": 7,
+    "joiningDate": "2026-08-05",
+    "status": "active"
+  },
+  {
+    "id": 6,
+    "name": "Sneha Gupta",
+    "phone": "9876543215",
+    "deskNumber": 9,
+    "joiningDate": "2026-08-06",
+    "status": "active"
+  },
+  {
+    "id": 7,
+    "name": "Vikram Singh",
+    "phone": "9876543216",
+    "deskNumber": 12,
+    "joiningDate": "2026-08-07",
+    "status": "active"
+  },
+  {
+    "id": 8,
+    "name": "Divya Kumar",
+    "phone": "9876543217",
+    "deskNumber": 15,
+    "joiningDate": "2026-08-08",
+    "status": "active"
+  },
+  {
+    "id": 9,
+    "name": "Rohit Verma",
+    "phone": "9876543218",
+    "deskNumber": 18,
+    "joiningDate": "2026-08-09",
+    "status": "active"
+  },
+  {
+    "id": 10,
+    "name": "Anjali Reddy",
+    "phone": "9876543219",
+    "deskNumber": 20,
+    "joiningDate": "2026-08-10",
+    "status": "active"
+  },
+  {
+    "id": 11,
+    "name": "Karan Malhotra",
+    "phone": "9876543220",
+    "deskNumber": 25,
+    "joiningDate": "2026-08-05",
+    "status": "active"
+  },
+  {
+    "id": 12,
+    "name": "Pooja Nair",
+    "phone": "9876543221",
+    "deskNumber": 30,
+    "joiningDate": "2026-08-06",
+    "status": "active"
+  },
+  {
+    "id": 13,
+    "name": "Sanjay Rao",
+    "phone": "9876543222",
+    "deskNumber": 35,
+    "joiningDate": "2026-08-07",
+    "status": "active"
+  },
+  {
+    "id": 14,
+    "name": "Ritika Saxena",
+    "phone": "9876543223",
+    "deskNumber": 40,
+    "joiningDate": "2026-08-08",
+    "status": "active"
+  },
+  {
+    "id": 15,
+    "name": "Ashok Desai",
+    "phone": "9876543224",
+    "deskNumber": 45,
+    "joiningDate": "2026-08-09",
+    "status": "active"
+  }
+]

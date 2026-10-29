@@ -1,0 +1,85 @@
+.admin-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 16px 24px;
+  background: white;
+  border-bottom: 1px solid #e2e8f0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.menu-btn {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  color: #2563eb;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+
+.header-title {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.header-info {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.header-date {
+  margin: 0;
+  font-size: 14px;
+  color: #64748b;
+}
+
+.header-clock {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #2563eb;
+  font-family: 'Courier New', monospace;
+  padding: 6px 12px;
+  background: #eff6ff;
+  border-radius: 6px;
+  border-left: 3px solid #2563eb;
+}
+
+@media (max-width: 768px) {
+  .menu-btn {
+    display: block;
+  }
+
+  .header-title {
+    font-size: 20px;
+  }
+
+  .admin-header {
+    padding: 12px 16px;
+  }
+
+  .header-info {
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-end;
+  }
+
+  .header-date,
+  .header-clock {
+    font-size: 12px;
+  }
+
+  .header-clock {
+    padding: 4px 8px;
+  }
+}
